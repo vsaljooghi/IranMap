@@ -1,0 +1,34 @@
+#IranMap #counties {
+  float: left;
+  width: 55%;
+  height: 100%;
+  vertical-align: middle;
+
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#IranMap #counties svg {
+	height: 550px;
+  width: 85% !important;
+  display: inline-block;
+}
+
+#IranMap #counties button {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #13B6CF; 
+  padding: 5px;
+  color: white;  
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+#IranMap #prov_name {
+	color: blue;
+	font-size: 15px;
+	text-align: center;
+
+}

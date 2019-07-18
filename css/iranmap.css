@@ -1,0 +1,171 @@
+@import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+
+body{
+  background: #ccc;
+}
+
+#IranMap {
+  direction: rtl;
+  text-align: right;
+  font-family: IRANSans !important;
+  font-size: 11px;
+  margin: 25px auto 15px auto;
+}
+
+#IranMap #show-title {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  margin: 0 !important;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  opacity: 0.8;
+}
+
+#IranMap #map {
+  float: left;
+  width: 55%;
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#IranMap #map svg {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#IranMap #map g {
+  transform: scale(1,1);
+}
+
+#IranMap #border path {
+  fill: none;
+  stroke-width: 2;
+  stroke: black;
+}
+
+#IranMap #sea path, #IranMap #lake path {
+  fill: #6caed8;
+}
+
+#IranMap #island path {
+  fill: white;
+}
+
+#IranMap g:nth-child(1) path {
+  stroke: black;
+  stroke-width: 2;
+  fill: white;
+}
+
+#IranMap g:nth-child(1) path:hover, #IranMap g:nth-child(1) path.hover {
+  fill: #999 !important;
+  cursor: pointer;
+}
+
+#IranMap .map-sea-names path {
+  fill: white;
+}
+
+#IranMap  .map-province-names path {
+  fill: black;
+}
+
+#IranMap #items_list {
+  float: right;
+  width: 40%;
+}
+
+#IranMap #items_table {
+  display: inline-block;
+  width: 98%;
+  vertical-align:top;
+}
+
+#IranMap table {
+  margin: auto;
+  text-align: center !important;
+  width: 100%;
+}
+
+#IranMap tr {
+  display: inline-block;
+  width: 48%;
+  margin: 2px;
+}
+
+#IranMap tr.white {
+  background:white;
+}
+
+#IranMap tr.grey {
+  background: #f2f2f2;
+}
+
+#IranMap tr:hover,#IranMap tr.hover{
+  background: #999 !important;
+}
+
+#IranMap th,#IranMap td {
+  padding-right: 2px;
+  padding-left:  2px;
+  text-align: right;
+  height: 25px;
+  width: 46%;
+  display: inline-block;
+}
+
+#IranMap tr th:nth-child(2) {
+  text-align: center;
+}
+
+#IranMap tr td:nth-child(2) {
+  text-align: center;
+}
+
+#IranMap .TB_header {
+  background: #13B6CF !important;
+  color: #ecf0f1 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+#IranMap #total {
+  font-weight: bold;
+  color: black !important;
+  background: #13B6CF !important;
+  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+#IranMap #date {
+  font-weight: bold;
+  color: white !important;
+  background: #0F7299 !important;
+}
+
+#IranMap #selection_dropdowns {
+  width: 1%;
+  display: inline-block;
+  vertical-align:top;
+}
+
+#IranMap select {
+  font-family: IRANSans !important;
+  color: blue;
+}
+
+#IranMap #JSON_Load_Alert {
+	color: red;
+	white-space: nowrap;
+}
