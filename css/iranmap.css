@@ -78,6 +78,13 @@ body{
   fill: black;
 }
 
+#IranMap #legend { list-style: none; text-align: right; }
+#IranMap #legend li { display:inline-block; margin-left: 20px;} 
+#IranMap #legend span { border: 1px solid #ccc; float: right; width: 15px; height: 15px; margin: 2px; }
+#IranMap #legend #leg_Above { background-color: red; }
+#IranMap #legend #leg_Between { background-color: orange; }
+#IranMap #legend #leg_Below { background-color: yellow; }
+
 #IranMap #items_list {
   float: right;
   width: 45%;
@@ -148,6 +155,16 @@ body{
   -webkit-border-radius: 4px;
 }
 
+#IranMap #avg {
+  font-weight: bold;
+  color: black !important;
+  background: #13B6CF !important;
+  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
 #IranMap #date {
   font-weight: bold;
   color: white !important;
@@ -163,6 +180,8 @@ body{
 #IranMap select {
   font-family: IRANSans !important;
   color: blue;
+  margin-bottom: 2px;
+  border-radius: 5px;
 }
 
 #IranMap #JSON_Load_Alert {

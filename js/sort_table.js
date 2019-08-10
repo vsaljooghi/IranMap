@@ -46,7 +46,7 @@ function sortTable(n) {
 
     /* Loop through all table rows (except the
     first, which contains table headers): */
-    for (i = 2; i < (rows.length-3); i++) {
+    for (i = 2; i < (rows.length-4); i++) {
       // Start by saying there should be no switching:
       shouldSwitch = false;
       /* Get the two elements you want to compare,

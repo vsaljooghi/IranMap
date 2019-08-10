@@ -14,6 +14,7 @@ function load_JSON(fname_JSON) {
 			   
       	     var AVG = data[AVG_Key];
 			 $('#IranMap #total td:nth-child(2)').text((data[Total_Key]).replace(/\B(?=(\d{3})+(?!\d))/g, ","));		 
+			 $('#IranMap #avg td:nth-child(2)').text((data[AVG_Key]).replace(/\B(?=(\d{3})+(?!\d))/g, ","));		 
 
 	         $('#IranMap #JSON_Load_Alert p').hide();
               
