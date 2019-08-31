@@ -25,7 +25,8 @@
 &emsp;&emsp;4- Linked hover effects between map and list of provinces/counties.<br/>
 &emsp;&emsp;5- Displaying counties by clicking on each province.<br/> 
 &emsp;&emsp;6- Can be used embedded in another page or application (No need to use refresh or back button of web browser).<br/>
-&emsp;&emsp;7- Inside JSON files, you can use your own provinces/counties names independent of our naming convention inside html files.</br> 
+&emsp;&emsp;7- Embedded data in tables can be exported as CSV file.
+&emsp;&emsp;8- Inside JSON files, you can use your own provinces/counties names independent of our naming convention inside html files.</br> 
 &emsp;&emsp;To do so, you need to define a dictionary in ./js/dicts and also set the value of "Dict" key in your JSON file.
 
 **Helpful web pages:**<br/>

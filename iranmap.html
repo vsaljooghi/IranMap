@@ -9,6 +9,10 @@
         <script type="text/javascript" src="js/hover_x.js"></script>		
 		<script type="text/javascript" src="js/sort_table.js"></script>
 		<script type="text/javascript" src="js/DropdownSel.js"></script>
+        <script>
+	     sessionStorage.setItem("map_type", "Prov");
+	</script>
+
     </head>
 	
     <body>
@@ -1817,6 +1821,8 @@
             </div>
 			
             <div id="items_list">
+			   <button id="export" type="button">خروجی CSV</button>
+
 			   <div id="items_table">
                <table>
 			      <thead>
@@ -2068,8 +2074,6 @@
 				
             </div>
         </div>
-	    <script>
-		   	sessionStorage.setItem("map_type", "Prov");
-		</script>
+		<script type="text/javascript" src="js/exportCSV.js"></script> 
     </body>
 </html>

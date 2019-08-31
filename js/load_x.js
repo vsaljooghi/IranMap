@@ -84,6 +84,7 @@ function load_HTML(fname_HTML) {
 		$.getScript("./js/hover_x.js");  // Both county and main map need the script
 		$.getScript("./js/sort_table.js"); // Both county and main map need the script
 		$.getScript("./js/DropdownSel.js"); // Both county and main map need the script
+		$.getScript("./js/exportCSV.js"); // Both county and main map need the script
 
 			
 		if(fname_HTML.includes("iranmap")) {   
