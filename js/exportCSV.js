@@ -1,4 +1,4 @@
-$('#export').click(function(e) {
+$('#IranMap #export').click(function(e) {
 	
   e.preventDefault();	
   var titles = [];
@@ -8,14 +8,14 @@ $('#export').click(function(e) {
    * Get the table headers, this will be CSV headers
    * The count of headers will be CSV string separator
    */
-  $('table tr:eq(1) th').each(function() {
+  $('#IranMap table tr:eq(1) th').each(function() {
     titles.push($(this).text());
   });
 
   /*
    * Get the actual data, this will contain all the data, in 1 array
    */
-  $('table td').each(function() {
+  $('#IranMap table td').each(function() {
 	  if ($(this).find("a").length != 0)
 		 data.push($(this).find("a").text());
 	  else
