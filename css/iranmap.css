@@ -66,7 +66,7 @@ body{
 }
 
 #IranMap g:nth-child(1) path:hover, #IranMap g:nth-child(1) path.hover {
-  fill: #999 !important;
+  fill: #a4edba !important;
   cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ body{
 }
 
 #IranMap tr:hover,#IranMap tr.hover{
-  background: #999 !important;
+  background: #a4edba !important;
 }
 
 #IranMap th,#IranMap td {
