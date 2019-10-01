@@ -63,6 +63,7 @@ body{
   stroke: black;
   stroke-width: 2;
   fill: white;
+  transition: fill 1s;
 }
 
 #IranMap g:nth-child(1) path:hover, #IranMap g:nth-child(1) path.hover {
