@@ -45,10 +45,10 @@
 &emsp;&emsp;2- In case you want to try it locally using Chromium browser: you should run it over a web server<br/> 
 &emsp;&emsp;Due to: Cross origin requests are only supported for protocol schemes: http, https.<br/>  
 &emsp;&emsp;For bringing up a simple web server you can use the following command:<br/> 
-&emsp;&emsp;&emsp;&emsp;Python2: python -m SimpleHTTPServer<br/> 
-&emsp;&emsp;&emsp;&emsp;Python3: python -m http.server <br/> 
+&emsp;&emsp;&emsp;&emsp;Python2: `python -m SimpleHTTPServer`<br/> 
+&emsp;&emsp;&emsp;&emsp;Python3: `python -m http.server` <br/> 
 &emsp;&emsp;3- To replace relative paths in *nix systems:<br/>
-&emsp;&emsp;&emsp;&emsp;find . -type f -exec sed -i 's///g' {} + <br/> 
+&emsp;&emsp;&emsp;&emsp;`find . -type f -exec sed -i 's///g' {} +` <br/> 
 </p>
 
 ![Screen Shot](https://raw.githubusercontent.com/vsaljooghi/IranMap/master/screenshot/population.png)
