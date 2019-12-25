@@ -79,12 +79,16 @@ body{
   fill: black;
 }
 
-#IranMap #legend { list-style: none; text-align: right; }
+#IranMap #legend { list-style: none; text-align: center; }
 #IranMap #legend li { display:inline-block; margin-left: 20px;} 
 #IranMap #legend span { border: 1px solid #ccc; float: right; width: 15px; height: 15px; margin: 2px; }
-#IranMap #legend #leg_Above { background-color: #dc181c; }    /* red */
-#IranMap #legend #leg_Between { background-color: #ea6520; } /* orange */
-#IranMap #legend #leg_Below { background-color: #f7b432; }  /* yellow */
+#IranMap #legend #leg_1 { background-color: #7C0A02; }
+#IranMap #legend #leg_2 { background-color: #C21807; }
+#IranMap #legend #leg_3 { background-color: #CD5C5C; }
+#IranMap #legend #leg_4 { background-color: #FC6600; }
+#IranMap #legend #leg_5 { background-color: #FDA50F; }
+#IranMap #legend #leg_6 { background-color: #FCD12A; }
+#IranMap #legend #leg_7 { background-color: #FCF4A3; }
 
 #IranMap #items_list {
   float: right;

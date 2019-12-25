@@ -41,12 +41,20 @@ function load_JSON(fname_JSON) {
 				  var val = data[mappedClassName];
 						
 				  if(val) {		
-					if(parseInt(val) > parseInt(AVG)*2/3)
-						$('#IranMap svg .' + className).css({fill:"#dc181c"});  // red
-					else if(parseInt(val) > parseInt(AVG)/3)
-						$('#IranMap svg .' + className).css({fill:"#ea6520"});  // orange
+                    if(parseInt(val) > parseInt(AVG)*12/4)
+						$('#IranMap svg .' + className).css({fill:"#7C0A02"});  // BARN RED					
+					else if(parseInt(val) > parseInt(AVG)*8/4)
+						$('#IranMap svg .' + className).css({fill:"#C21807"});  // CHILI
+					else if(parseInt(val) > parseInt(AVG)*4/4)
+						$('#IranMap svg .' + className).css({fill:"#CD5C5C"});  // INDIAN RED
+					else if(parseInt(val) > parseInt(AVG)*3/4)
+						$('#IranMap svg .' + className).css({fill:"#FC6600"});  // ORANGE
+					else if(parseInt(val) > parseInt(AVG)*2/4)
+						$('#IranMap svg .' + className).css({fill:"#FDA50F"});  // FIRE
+					else if(parseInt(val) > parseInt(AVG)*1/4)
+						$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY
 					else
-						$('#IranMap svg .' + className).css({fill:"#f7b432"});  // yellow
+						$('#IranMap svg .' + className).css({fill:"#FCF4A3"});  // BANANA
 						
 					var thousands_commas = val.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 					$('#IranMap table .' + className + ' td:nth-child(2)').text(thousands_commas);
