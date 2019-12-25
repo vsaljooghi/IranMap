@@ -20,8 +20,8 @@
 **Features:**<br/>
 &emsp;&emsp;1- Sorting ascending or descending based on Persian alphabetic order or quantity values by clicking on the<br/> 
 &emsp;&emsp;corresponding header field.<br/>
-&emsp;&emsp;2- Visualization(colorize) of one quantity on the map (Red -> Orange -> Yellow)<br/>
-&emsp;&emsp;3- Load corresponding JSON file based on a dropdown menu selection.<br/> 
+&emsp;&emsp;2- Visualization(colorize) of one quantity on the map (Shades of Red -> Shades of Orange -> Shades of Yellow)<br/>
+&emsp;&emsp;3- Load corresponding JSON file based on a dropdown menu or combo box selection.<br/> 
 &emsp;&emsp;4- Linked hover effects between map and list of provinces/counties.<br/>
 &emsp;&emsp;5- Displaying counties by clicking on each province.<br/> 
 &emsp;&emsp;6- Can be used embedded in another page or application (No need to use refresh or back button of web browser).<br/>
