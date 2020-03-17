@@ -101,6 +101,12 @@ body{
   vertical-align:top;
 }
 
+#IranMap #NumColorsWrapper {
+  float: left;
+  margin-left: 40px;
+  display: inline-block !important;
+}
+
 #IranMap table {
   margin: auto;
   text-align: center !important;

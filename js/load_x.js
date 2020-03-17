@@ -32,6 +32,8 @@ function load_JSON(fname_JSON) {
 			 
 	         $.getScript(Dict_Path)   // Get corresponding dictionary file in order to map JSON file names to names inside html files 
                         .done(function() {  
+ 				  var NumColors = $("#IranMap #NumColors").val();
+							
 			      $('#IranMap table tbody tr').each(function() {
 				  var classes_string = $(this).attr('class'); 
 				  if(!!classes_string)
@@ -41,6 +43,63 @@ function load_JSON(fname_JSON) {
 				  var val = data[mappedClassName];
 						
 				  if(val) {		
+						switch(NumColors) {
+							case "2":
+								if(parseInt(val) > parseInt(AVG))
+									$('#IranMap svg .' + className).css({fill:"#FC6600"});  // ORANGE
+								else								
+									$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY							
+							break;
+
+							case "3":
+								if(parseInt(val) > parseInt(AVG)*8/4)
+									$('#IranMap svg .' + className).css({fill:"#C21807"});  // CHILI
+								else if(parseInt(val) > parseInt(AVG))
+									$('#IranMap svg .' + className).css({fill:"#FC6600"});  // ORANGE
+								else								
+									$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY
+							break;
+
+							case "4":
+								if(parseInt(val) > parseInt(AVG)*8/4)
+									$('#IranMap svg .' + className).css({fill:"#7C0A02"});  // BARN RED	
+								else if(parseInt(val) > parseInt(AVG)*4/4)
+									$('#IranMap svg .' + className).css({fill:"#CD5C5C"});  // INDIAN RED
+								else if(parseInt(val) > parseInt(AVG)*1/2)
+									$('#IranMap svg .' + className).css({fill:"#FC6600"});  // ORANGE
+								else								
+									$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY
+							break;
+
+							case "5":
+								if(parseInt(val) > parseInt(AVG)*8/4)
+									$('#IranMap svg .' + className).css({fill:"#C21807"});  // CHILI
+								else if(parseInt(val) > parseInt(AVG)*4/4)
+									$('#IranMap svg .' + className).css({fill:"#CD5C5C"});  // INDIAN RED
+								else if(parseInt(val) > parseInt(AVG)*3/4)
+									$('#IranMap svg .' + className).css({fill:"#FC6600"});  // ORANGE
+								else if(parseInt(val) > parseInt(AVG)*2/4)								
+									$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY
+								else
+									$('#IranMap svg .' + className).css({fill:"#FCF4A3"});  // BANANA
+							break;
+
+							case "6":
+								if(parseInt(val) > parseInt(AVG)*8/4)
+									$('#IranMap svg .' + className).css({fill:"#7C0A02"});  // BARN RED					
+								else if(parseInt(val) > parseInt(AVG)*4/4)
+									$('#IranMap svg .' + className).css({fill:"#C21807"});  // CHILI
+								else if(parseInt(val) > parseInt(AVG)*3/4)
+									$('#IranMap svg .' + className).css({fill:"#CD5C5C"});  // INDIAN RED
+								else if(parseInt(val) > parseInt(AVG)*2/4)
+									$('#IranMap svg .' + className).css({fill:"#FC6600"});  // ORANGE
+								else if(parseInt(val) > parseInt(AVG)*1/4)
+									$('#IranMap svg .' + className).css({fill:"#FDA50F"});  // FIRE
+								else
+									$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY
+							break;
+							
+							case "7":
                     if(parseInt(val) > parseInt(AVG)*12/4)
 						$('#IranMap svg .' + className).css({fill:"#7C0A02"});  // BARN RED					
 					else if(parseInt(val) > parseInt(AVG)*8/4)
@@ -55,6 +114,9 @@ function load_JSON(fname_JSON) {
 						$('#IranMap svg .' + className).css({fill:"#FCD12A"});  // TUSCANY
 					else
 						$('#IranMap svg .' + className).css({fill:"#FCF4A3"});  // BANANA
+							break;
+						}
+
 						
 					var thousands_commas = val.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 					$('#IranMap table .' + className + ' td:nth-child(2)').text(thousands_commas);

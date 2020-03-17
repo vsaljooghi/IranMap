@@ -51,48 +51,4 @@ $(function() {
             $('#IranMap #show-title').css({'left': x, 'top': y});
         }
     });
-
-	// Tooltip on legend
-    $('#IranMap #legend li:nth-child(1)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'بیشتر از سه برابر میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-	
-    $('#IranMap #legend li:nth-child(2)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'بیشتر از دو برابر میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-	
-    $('#IranMap #legend li:nth-child(3)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'بیشتر از میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-
-    $('#IranMap #legend li:nth-child(4)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'بیشتر از سه چهارم میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-	
-    $('#IranMap #legend li:nth-child(5)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'بیشتر از نصف میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });	
-	
-    $('#IranMap #legend li:nth-child(6)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'بیشتر از یک چهارم میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-
-    $('#IranMap #legend li:nth-child(7)').hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'کمتر از یک چهارم میانگین');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-
 });
