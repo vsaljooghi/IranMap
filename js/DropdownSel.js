@@ -1,7 +1,64 @@
 $(document).ready(function(){
     emulSelection();
 
-    function decide_legend() { // Which one should be displayed
+    $("#IranMap  #NumColors").change(function(){
+		decide_legend();
+		load_JSON(sessionStorage.getItem("fileName"));
+    });
+
+		
+    $('#IranMap #selection_dropdowns').change(function() {  // Change on dropdown menu
+
+			  var selectedItemQuantity = $("#Quantity select").children("option:selected").val();
+			  var selectedItemQuantityType = $("#Quantity_Type select").children("option:selected").val();
+			  var selectedItemYear = $("#Year select").children("option:selected").val();
+			  var selectedItemMonth = $("#Month select").children("option:selected").val();
+			  
+			  var pathPrefix = "./JSON_Files/";
+			  var fileName;
+			  var mapType;
+
+			  if (window.sessionStorage) { // save the selected values into session storage
+			   sessionStorage.setItem("dropsel_quantity", selectedItemQuantity);
+			   sessionStorage.setItem("dropsel_quantity_type", selectedItemQuantityType);
+			   sessionStorage.setItem("dropsel_year", selectedItemYear);
+			   sessionStorage.setItem("dropsel_month", selectedItemMonth);	
+                           mapType = sessionStorage.getItem("map_type");			   
+			  }
+					
+			  switch(selectedItemQuantity) {
+				case "popu":
+					fileName = pathPrefix + mapType + "_" + selectedItemQuantity + ".json";
+					$("#Quantity_Type").hide();		   
+					$("#Year").hide();
+					$("#Month").hide();					
+					break;
+					  
+				case "AMNT":
+				case "CNT":
+				case "TERM":
+					fileName = pathPrefix + selectedItemYear + "_" + selectedItemMonth + "_" + mapType + "_" + selectedItemQuantity + "_" + selectedItemQuantityType + ".json";
+					$("#Quantity_Type").show();
+					$("#Year").show();
+					$("#Month").show();
+					break;
+					
+				case "amount": 
+				case "trans":
+				case "term":
+					fileName = pathPrefix + mapType + "_" + selectedItemQuantity + "_" + selectedItemQuantityType + ".json";			  
+					$("#Quantity_Type").show();
+					$("#Year").hide();
+					$("#Month").hide();
+			  }
+			  
+			  sessionStorage.setItem("fileName", fileName);				  
+			  load_JSON(fileName); 		
+    });	
+
+});
+
+function decide_legend() { // Which one should be displayed
 		$('#IranMap #legend li').hide();  // hide legend
    	        var NumColors = $("#IranMap  #NumColors").val();
 
@@ -242,63 +299,8 @@ $(document).ready(function(){
 
 				break;				
 			}		
-	}
+}
 	
-	$("#IranMap  #NumColors").change(function(){
-		decide_legend();
-		load_JSON(sessionStorage.getItem("fileName"));
-	});
-
-		
-	$('#IranMap #selection_dropdowns').change(function() {  // Change on dropdown menu
-			  var selectedItemQuantity = $("#Quantity select").children("option:selected").val();
-			  var selectedItemQuantityType = $("#Quantity_Type select").children("option:selected").val();
-			  var selectedItemYear = $("#Year select").children("option:selected").val();
-			  var selectedItemMonth = $("#Month select").children("option:selected").val();
-			  
-			  var pathPrefix = "./JSON_Files/";
-			  var fileName;
-			  var mapType;
-
-			  if (window.sessionStorage) { // save the selected values into session storage
-			   sessionStorage.setItem("dropsel_quantity", selectedItemQuantity);
-			   sessionStorage.setItem("dropsel_quantity_type", selectedItemQuantityType);
-			   sessionStorage.setItem("dropsel_year", selectedItemYear);
-			   sessionStorage.setItem("dropsel_month", selectedItemMonth);	
-                           mapType = sessionStorage.getItem("map_type");			   
-			  }
-					
-			  switch(selectedItemQuantity) {
-				case "popu":
-					fileName = pathPrefix + mapType + "_" + selectedItemQuantity + ".json";
-					$("#Quantity_Type").hide();		   
-					$("#Year").hide();
-					$("#Month").hide();					
-					break;
-					  
-				case "AMNT":
-				case "CNT":
-				case "TERM":
-					fileName = pathPrefix + selectedItemYear + "_" + selectedItemMonth + "_" + mapType + "_" + selectedItemQuantity + "_" + selectedItemQuantityType + ".json";
-					$("#Quantity_Type").show();
-					$("#Year").show();
-					$("#Month").show();
-					break;
-					
-				case "amount": 
-				case "trans":
-				case "term":
-					fileName = pathPrefix + mapType + "_" + selectedItemQuantity + "_" + selectedItemQuantityType + ".json";			  
-					$("#Quantity_Type").show();
-					$("#Year").hide();
-					$("#Month").hide();
-			  }
-			  
-			  sessionStorage.setItem("fileName", fileName);				  
-			  load_JSON(fileName); 		
-		});	
-
-
 
 function emulSelection() {   // When refreshing the page or loading a new html, calling this function emulates selection of an option in dropdown menu	
 	       var selectedItemQuantity = sessionStorage.getItem("dropsel_quantity");
@@ -373,5 +375,3 @@ function emulSelection() {   // When refreshing the page or loading a new html, 
 		   sessionStorage.setItem("fileName", fileName);
 		   load_JSON(fileName);
 }
-
-});
