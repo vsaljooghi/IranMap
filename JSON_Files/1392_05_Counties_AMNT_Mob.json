@@ -1,0 +1,175 @@
+{
+"Dict": "Dict1",
+"Date": "1392/05/31",
+"Quantity_Type": "مبلغ تراکنش",
+
+"alborzAVG": "1357250",
+"alborzTotal": "5429000",
+"karaj": 	 "4836000" ,
+"savojbolagh": 	 "570000" ,
+"fardis": 	 "8000" ,
+"nazarabad": 	 "15000" ,
+
+"ardabilAVG": "17500",
+"ardabilTotal": "35000",
+"ardebil": 	 "30000" ,
+"germi": 	 "5000" ,
+
+"azerbaijan-eastAVG": "40000",
+"azerbaijan-eastTotal": "200000",
+"shabestar": 	 "5000" ,
+"bonab": 	 "10000" ,
+"tabriz": 	 "170000" ,
+"malekan": 	 "10000" ,
+"marand": 	 "5000" ,
+
+"azerbaijan-westAVG": "24167",
+"azerbaijan-westTotal": "145000",
+"mahabad": 	 "20000" ,
+"salmas": 	 "5000" ,
+"sardasht": 	 "15000" ,
+"piranshahr": 	 "15000" ,
+"oshnavieh": 	 "5000" ,
+"urumieh": 	 "85000" ,
+
+"bushehrAVG": "17250",
+"bushehrTotal": "34500",
+"deylam": 	 "10000" ,
+"boshehr": 	 "24500" ,
+
+"chahar-mahaal-bakhtiariAVG": "15000",
+"chahar-mahaal-bakhtiariTotal": "15000",
+"kiar": 	 "15000" ,
+
+"farsAVG": "10750",
+"farsTotal": "43000",
+"shiraz": 	 "25000" ,
+"qir-va-karzin": 	 "8000" ,
+"darab": 	 "5000" ,
+"mehr": 	 "5000" ,
+
+"gilanAVG": "10000",
+"gilanTotal": "30000",
+"rasht": 	 "15000" ,
+"masal": 	 "5000" ,
+"astanehashrafieh": 	 "10000" ,
+
+"golestanAVG": "12500",
+"golestanTotal": "25000",
+"gorgan": 	 "5000" ,
+"kordkooy": 	 "20000" ,
+
+"hamadanAVG": "30000",
+"hamadanTotal": "30000",
+"famenin": 	 "30000" ,
+
+"hormozganAVG": "30500",
+"hormozganTotal": "61000",
+"bandarlengeh": 	 "60000" ,
+"": 	 "1000" ,
+
+"ilamAVG": "",
+"ilamTotal": "0",
+ 	  ,
+
+"isfahanAVG": "2386750",
+"isfahanTotal": "11933750",
+"": 	 "4311000" ,
+"isfahan": 	 "6267750" ,
+"lenjan": 	 "250000" ,
+"kashan": 	 "1100000" ,
+"shahin-shahr-va-meymeh": 	 "5000" ,
+
+"kermanAVG": "162500",
+"kermanTotal": "325000",
+"ravar": 	 "100000" ,
+"kerman": 	 "225000" ,
+
+"kermanshahAVG": "5000",
+"kermanshahTotal": "5000",
+"kermanshah": 	 "5000" ,
+
+"khorasan-northAVG": "1100000",
+"khorasan-northTotal": "1100000",
+"farooj": 	 "1100000" ,
+
+"khorasan-razaviAVG": "37500",
+"khorasan-razaviTotal": "150000",
+"ghoochan": 	 "10000" ,
+"torbatjam": 	 "5000" ,
+"": 	 "5000" ,
+"mashhad": 	 "130000" ,
+
+"khorasan-southAVG": "",
+"khorasan-southTotal": "0",
+ 	  ,
+
+"khuzestanAVG": "1003750",
+"khuzestanTotal": "4015000",
+"ahvaz": 	 "3540000" ,
+"izeh": 	 "15000" ,
+"andimeshk": 	 "50000" ,
+"abadan": 	 "410000" ,
+
+"kohgiluyeh-boyer-ahmadAVG": "10000",
+"kohgiluyeh-boyer-ahmadTotal": "10000",
+"kohgiluyeh": 	 "10000" ,
+
+"kurdistanAVG": "118750",
+"kurdistanTotal": "475000",
+"saghez": 	 "5000" ,
+"kamyaran": 	 "20000" ,
+"baneh": 	 "17000" ,
+"sanandaj": 	 "433000" ,
+
+"lorestanAVG": "",
+"lorestanTotal": "0",
+ 	  ,
+
+"markaziAVG": "85333",
+"markaziTotal": "256000",
+"saveh": 	 "241000" ,
+"khomein": 	 "5000" ,
+"arak": 	 "10000" ,
+
+"mazandaranAVG": "30000",
+"mazandaranTotal": "90000",
+"babol": 	 "70000" ,
+"noor": 	 "10000" ,
+"babolsar": 	 "10000" ,
+
+"qazvinAVG": "10000",
+"qazvinTotal": "20000",
+"abeyek": 	 "15000" ,
+"qazvin": 	 "5000" ,
+
+"qomAVG": "15000",
+"qomTotal": "15000",
+"qom": 	 "15000" ,
+
+"semnanAVG": "240000",
+"semnanTotal": "240000",
+"shahrood": 	 "240000" ,
+
+"sistan-baluchestanAVG": "5000",
+"sistan-baluchestanTotal": "10000",
+"iranshahr": 	 "5000" ,
+"zahedan": 	 "5000" ,
+
+"tehranAVG": "156669726256",
+"tehranTotal": "940018357536",
+"malard": 	 "30000" ,
+"ghods": 	 "20000" ,
+"rey": 	 "150000" ,
+"shahryar": 	 "590000" ,
+"tehran": 	 "940015767536" ,
+"robatkarim": 	 "1800000" ,
+
+"yazdAVG": "5000",
+"yazdTotal": "5000",
+"yazd": 	 "5000" ,
+
+"zanjanAVG": "41000",
+"zanjanTotal": "41000",
+"zanjan": 	 "41000" 
+}

@@ -1,0 +1,170 @@
+{
+"Dict": "Dict1",
+"Date": "1392/01/31",
+"Quantity_Type": "مبلغ تراکنش",
+
+"alborzAVG": "206543601",
+"alborzTotal": "206543601",
+"karaj": 	 "206543601" ,
+
+"ardabilAVG": "1186310166",
+"ardabilTotal": "2372620332",
+"ardebil": 	 "124366000" ,
+"meshginshahr": 	 "2248254332" ,
+
+"azerbaijan-eastAVG": "1375019972",
+"azerbaijan-eastTotal": "1375019972",
+"tabriz": 	 "1375019972" ,
+
+"azerbaijan-westAVG": "1005500",
+"azerbaijan-westTotal": "2011000",
+"urumieh": 	 "1960000" ,
+"piranshahr": 	 "51000" ,
+
+"bushehrAVG": "5256000",
+"bushehrTotal": "10512000",
+"dashtestan": 	 "9710000" ,
+"boshehr": 	 "802000" ,
+
+"chahar-mahaal-bakhtiariAVG": "1972250",
+"chahar-mahaal-bakhtiariTotal": "1972250",
+"shahrekord": 	 "1972250" ,
+
+"farsAVG": "584333956",
+"farsTotal": "2921669781",
+"shiraz": 	 "973340373" ,
+"khorrambid": 	 "1897810000" ,
+"jahrom": 	 "20807000" ,
+"gerash": 	 "1500408" ,
+"": 	 "28212000" ,
+
+"gilanAVG": "1389814087",
+"gilanTotal": "2779628174",
+"rodsar": 	 "1754000" ,
+"rasht": 	 "2777874174" ,
+
+"golestanAVG": "7909427",
+"golestanTotal": "23728280",
+"gorgan": 	 "5518280" ,
+"kordkooy": 	 "300000" ,
+"gonbadkavoos": 	 "17910000" ,
+
+"hamadanAVG": "17881000",
+"hamadanTotal": "35762000",
+"malayer": 	 "15270000" ,
+"hamedan": 	 "20492000" ,
+
+"hormozganAVG": "250138450",
+"hormozganTotal": "750415350",
+"bandarabas": 	 "3850000" ,
+"gheshm": 	 "17100000" ,
+"bandarlengeh": 	 "729465350" ,
+
+"ilamAVG": "26494000",
+"ilamTotal": "26494000",
+"ilam": 	 "26494000" ,
+
+"isfahanAVG": "173748561",
+"isfahanTotal": "694994245",
+"khomeinishahr": 	 "3887000" ,
+"isfahan": 	 "647877245" ,
+"najafabad": 	 "890000" ,
+"ardestan": 	 "42340000" ,
+
+"kermanAVG": "1462606378",
+"kermanTotal": "2925212757",
+"kerman": 	 "2925206737" ,
+"rafsanjan": 	 "6020" ,
+
+"kermanshahAVG": "134050",
+"kermanshahTotal": "134050",
+"kermanshah": 	 "134050" ,
+
+"khorasan-northAVG": "",
+"khorasan-northTotal": "0",
+ 	  ,
+
+"khorasan-razaviAVG": "282796429",
+"khorasan-razaviTotal": "1413982147",
+"torbatheydariyeh": 	 "9101000" ,
+"neyshaboor": 	 "15131000" ,
+"mashhad": 	 "1319580638" ,
+"binalud": 	 "48733800" ,
+"": 	 "21435709" ,
+
+"khorasan-southAVG": "25046000",
+"khorasan-southTotal": "25046000",
+"birjand": 	 "25046000" ,
+
+"khuzestanAVG": "783251279",
+"khuzestanTotal": "1566502558",
+"bandarmahshahr": 	 "12039800" ,
+"ahvaz": 	 "1554462758" ,
+
+"kohgiluyeh-boyer-ahmadAVG": "",
+"kohgiluyeh-boyer-ahmadTotal": "0",
+ 	  ,
+
+"kurdistanAVG": "67407695",
+"kurdistanTotal": "67407695",
+"sanandaj": 	 "67407695" ,
+
+"lorestanAVG": "556250",
+"lorestanTotal": "556250",
+"khoramabad": 	 "556250" ,
+
+"markaziAVG": "12990925",
+"markaziTotal": "25981850",
+"zarandieh": 	 "3444760" ,
+"arak": 	 "22537090" ,
+
+"mazandaranAVG": "124576943",
+"mazandaranTotal": "1245769427",
+"babol": 	 "822393910" ,
+"behshahr": 	 "114599526" ,
+"tonekabon": 	 "37650098" ,
+"ghaemshahr": 	 "30000" ,
+"amol": 	 "54607638" ,
+"ramsar": 	 "1479010" ,
+"noor": 	 "7173000" ,
+"babolsar": 	 "25114000" ,
+"sari": 	 "182272245" ,
+"chaloos": 	 "450000" ,
+
+"qazvinAVG": "6387000",
+"qazvinTotal": "6387000",
+"qazvin": 	 "6387000" ,
+
+"qomAVG": "311085669",
+"qomTotal": "622171338",
+"": 	 "105005000" ,
+"qom": 	 "517166338" ,
+
+"semnanAVG": "79414050",
+"semnanTotal": "238242150",
+"shahrood": 	 "74794100" ,
+"mehdishahr": 	 "1000" ,
+"semnan": 	 "163447050" ,
+
+"sistan-baluchestanAVG": "",
+"sistan-baluchestanTotal": "0",
+ 	  ,
+
+"tehranAVG": "169793774695",
+"tehranTotal": "1018762648170",
+"tehran": 	 "1018485215148" ,
+"gharchak": 	 "10090000" ,
+"shahryar": 	 "148449138" ,
+"pishva": 	 "77744200" ,
+"": 	 "35929684" ,
+"firoozkooh": 	 "5220000" ,
+
+"yazdAVG": "350555469",
+"yazdTotal": "350555469",
+"yazd": 	 "350555469" ,
+
+"zanjanAVG": "10528465",
+"zanjanTotal": "21056930",
+"zanjan": 	 "21049430" ,
+"": 	 "7500" 
+}

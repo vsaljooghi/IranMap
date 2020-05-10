@@ -1,0 +1,170 @@
+{
+"Dict": "Dict1",
+"Date": "1398/10/02",
+"Quantity_Type": "تعداد تراکنش",
+
+"alborzAVG": "16",
+"alborzTotal": "16",
+"karaj": 	 "16" ,
+
+"ardabilAVG": "2",
+"ardabilTotal": "2",
+"ardebil": 	 "2" ,
+
+"azerbaijan-eastAVG": "11",
+"azerbaijan-eastTotal": "11",
+"tabriz": 	 "11" ,
+
+"azerbaijan-westAVG": "6",
+"azerbaijan-westTotal": "12",
+"bookan": 	 "4" ,
+"urumieh": 	 "8" ,
+
+"bushehrAVG": "1",
+"bushehrTotal": "7",
+"boshehr": 	 "2" ,
+"ganaveh": 	 "1" ,
+"kangan": 	 "1" ,
+"jam": 	 "2" ,
+"asaloyeh": 	 "1" ,
+
+"chahar-mahaal-bakhtiariAVG": "69",
+"chahar-mahaal-bakhtiariTotal": "69",
+"farsan": 	 "69" ,
+
+"farsAVG": "21",
+"farsTotal": "83",
+"larestan": 	 "1" ,
+"shiraz": 	 "67" ,
+"lamerd": 	 "14" ,
+"mehr": 	 "1" ,
+
+"gilanAVG": "24",
+"gilanTotal": "24",
+"rasht": 	 "24" ,
+
+"golestanAVG": "8",
+"golestanTotal": "15",
+"gonbadkavoos": 	 "11" ,
+"gorgan": 	 "4" ,
+
+"hamadanAVG": "18",
+"hamadanTotal": "18",
+"hamedan": 	 "18" ,
+
+"hormozganAVG": "24215",
+"hormozganTotal": "96861",
+"bandarlengeh": 	 "3658" ,
+"rudan": 	 "1" ,
+"bandarabas": 	 "384" ,
+"": 	 "92818" ,
+
+"ilamAVG": "12",
+"ilamTotal": "24",
+"ilam": 	 "11" ,
+"chardavol": 	 "13" ,
+
+"isfahanAVG": "74",
+"isfahanTotal": "148",
+"isfahan": 	 "146" ,
+"falavarjan": 	 "2" ,
+
+"kermanAVG": "17",
+"kermanTotal": "51",
+"bam": 	 "1" ,
+"koohbanan": 	 "3" ,
+"kerman": 	 "47" ,
+
+"kermanshahAVG": "142",
+"kermanshahTotal": "142",
+"kermanshah": 	 "142" ,
+
+"khorasan-northAVG": "2",
+"khorasan-northTotal": "7",
+"bojnoord": 	 "3" ,
+"esfarayen": 	 "1" ,
+"garmeh": 	 "3" ,
+
+"khorasan-razaviAVG": "57",
+"khorasan-razaviTotal": "399",
+"kashmar": 	 "284" ,
+"torbatheydariyeh": 	 "8" ,
+"torbatjam": 	 "1" ,
+"neyshaboor": 	 "12" ,
+"mashhad": 	 "91" ,
+"taibad": 	 "1" ,
+"sabzevar": 	 "2" ,
+
+"khorasan-southAVG": "1",
+"khorasan-southTotal": "1",
+"sarbisheh": 	 "1" ,
+
+"khuzestanAVG": "5",
+"khuzestanTotal": "26",
+"dezfool": 	 "1" ,
+"behbahan": 	 "1" ,
+"bandarmahshahr": 	 "1" ,
+"shooshtar": 	 "3" ,
+"ahvaz": 	 "20" ,
+
+"kohgiluyeh-boyer-ahmadAVG": "3",
+"kohgiluyeh-boyer-ahmadTotal": "3",
+"boyer-ahmad": 	 "3" ,
+
+"kurdistanAVG": "22",
+"kurdistanTotal": "22",
+"sanandaj": 	 "22" ,
+
+"lorestanAVG": "13",
+"lorestanTotal": "13",
+"khoramabad": 	 "13" ,
+
+"markaziAVG": "4",
+"markaziTotal": "7",
+"saveh": 	 "1" ,
+"arak": 	 "6" ,
+
+"mazandaranAVG": "9",
+"mazandaranTotal": "35",
+"noshahr": 	 "1" ,
+"babol": 	 "1" ,
+"ramsar": 	 "1" ,
+"sari": 	 "32" ,
+
+"qazvinAVG": "6",
+"qazvinTotal": "13",
+"qazvin": 	 "12" ,
+"abeyek": 	 "1" ,
+
+"qomAVG": "161",
+"qomTotal": "161",
+"qom": 	 "161" ,
+
+"semnanAVG": "",
+"semnanTotal": "0",
+ 	  ,
+
+"sistan-baluchestanAVG": "1",
+"sistan-baluchestanTotal": "3",
+"zabol": 	 "1" ,
+"iranshahr": 	 "1" ,
+"zahedan": 	 "1" ,
+
+"tehranAVG": "549772",
+"tehranTotal": "3848404",
+"rey": 	 "12" ,
+"baharestan": 	 "1" ,
+"tehran": 	 "3848362" ,
+"damavand": 	 "2" ,
+"eslamshahr": 	 "1" ,
+"shemiranat": 	 "1" ,
+"": 	 "25" ,
+
+"yazdAVG": "9",
+"yazdTotal": "9",
+"yazd": 	 "9" ,
+
+"zanjanAVG": "203",
+"zanjanTotal": "203",
+"zanjan": 	 "203" 
+}

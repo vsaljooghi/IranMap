@@ -1,0 +1,175 @@
+{
+"Dict": "Dict1",
+"Date": "1392/05/31",
+"Quantity_Type": "تعداد پایانه دارای تراکنش",
+
+"alborzAVG": "4",
+"alborzTotal": "14",
+"karaj": 	 "9",
+"savojbolagh": 	 "2",
+"fardis": 	 "1",
+"nazarabad": 	 "2",
+
+"ardabilAVG": "2",
+"ardabilTotal": "3",
+"ardebil": 	 "2",
+"germi": 	 "1",
+
+"azerbaijan-eastAVG": "2",
+"azerbaijan-eastTotal": "8",
+"shabestar": 	 "1",
+"bonab": 	 "1",
+"tabriz": 	 "4",
+"malekan": 	 "1",
+"marand": 	 "1",
+
+"azerbaijan-westAVG": "2",
+"azerbaijan-westTotal": "14",
+"mahabad": 	 "1",
+"salmas": 	 "1",
+"sardasht": 	 "2",
+"piranshahr": 	 "2",
+"oshnavieh": 	 "1",
+"urumieh": 	 "7",
+
+"bushehrAVG": "2",
+"bushehrTotal": "3",
+"deylam": 	 "1",
+"boshehr": 	 "2",
+
+"chahar-mahaal-bakhtiariAVG": "1",
+"chahar-mahaal-bakhtiariTotal": "1",
+"kiar": 	 "1",
+
+"farsAVG": "1",
+"farsTotal": "5",
+"shiraz": 	 "2",
+"qir-va-karzin": 	 "1",
+"darab": 	 "1",
+"mehr": 	 "1",
+
+"gilanAVG": "1",
+"gilanTotal": "4",
+"rasht": 	 "2",
+"masal": 	 "1",
+"astanehashrafieh": 	 "1",
+
+"golestanAVG": "1",
+"golestanTotal": "2",
+"gorgan": 	 "1",
+"kordkooy": 	 "1",
+
+"hamadanAVG": "1",
+"hamadanTotal": "1",
+"famenin": 	 "1",
+
+"hormozganAVG": "2",
+"hormozganTotal": "4",
+"bandarlengeh": 	 "3",
+"": 	 "1",
+
+"ilamAVG": "",
+"ilamTotal": "0",
+ 	 
+
+"isfahanAVG": "3",
+"isfahanTotal": "16",
+"": 	 "2",
+"isfahan": 	 "10",
+"lenjan": 	 "1",
+"kashan": 	 "2",
+"shahin-shahr-va-meymeh": 	 "1",
+
+"kermanAVG": "2",
+"kermanTotal": "4",
+"ravar": 	 "1",
+"kerman": 	 "3",
+
+"kermanshahAVG": "1",
+"kermanshahTotal": "1",
+"kermanshah": 	 "1",
+
+"khorasan-northAVG": "1",
+"khorasan-northTotal": "1",
+"farooj": 	 "1",
+
+"khorasan-razaviAVG": "2",
+"khorasan-razaviTotal": "8",
+"ghoochan": 	 "1",
+"torbatjam": 	 "1",
+"": 	 "1",
+"mashhad": 	 "5",
+
+"khorasan-southAVG": "",
+"khorasan-southTotal": "0",
+ 	 
+
+"khuzestanAVG": "2",
+"khuzestanTotal": "9",
+"ahvaz": 	 "4",
+"izeh": 	 "2",
+"andimeshk": 	 "1",
+"abadan": 	 "2",
+
+"kohgiluyeh-boyer-ahmadAVG": "1",
+"kohgiluyeh-boyer-ahmadTotal": "1",
+"kohgiluyeh": 	 "1",
+
+"kurdistanAVG": "1",
+"kurdistanTotal": "5",
+"saghez": 	 "1",
+"kamyaran": 	 "1",
+"baneh": 	 "2",
+"sanandaj": 	 "1",
+
+"lorestanAVG": "",
+"lorestanTotal": "0",
+ 	 
+
+"markaziAVG": "1",
+"markaziTotal": "3",
+"saveh": 	 "1",
+"khomein": 	 "1",
+"arak": 	 "1",
+
+"mazandaranAVG": "1",
+"mazandaranTotal": "4",
+"babol": 	 "2",
+"noor": 	 "1",
+"babolsar": 	 "1",
+
+"qazvinAVG": "2",
+"qazvinTotal": "3",
+"abeyek": 	 "2",
+"qazvin": 	 "1",
+
+"qomAVG": "2",
+"qomTotal": "2",
+"qom": 	 "2",
+
+"semnanAVG": "1",
+"semnanTotal": "1",
+"shahrood": 	 "1",
+
+"sistan-baluchestanAVG": "1",
+"sistan-baluchestanTotal": "2",
+"iranshahr": 	 "1",
+"zahedan": 	 "1",
+
+"tehranAVG": "12",
+"tehranTotal": "73",
+"malard": 	 "1",
+"ghods": 	 "1",
+"rey": 	 "1",
+"shahryar": 	 "6",
+"tehran": 	 "63",
+"robatkarim": 	 "1",
+
+"yazdAVG": "1",
+"yazdTotal": "1",
+"yazd": 	 "1",
+
+"zanjanAVG": "5",
+"zanjanTotal": "5",
+"zanjan": 	 "5"
+}
