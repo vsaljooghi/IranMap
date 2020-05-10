@@ -41,6 +41,7 @@
 
 
 **Usage hints:**<br/>
+&emsp;&emsp;0- Unrar the JSON_Files.rar <br/>
 &emsp;&emsp;1- To add new items to dropdown menu: populate select tag in iranmap.html file. <br/>
 &emsp;&emsp;2- In case you want to try it locally using Chromium browser: you should run it over a web server<br/> 
 &emsp;&emsp;Due to: Cross origin requests are only supported for protocol schemes: http, https.<br/>  
