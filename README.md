@@ -38,7 +38,9 @@
 &emsp;&emsp;&emsp;&emsp;https://www.amar.org.ir/  <br/>
 &emsp;__Python tool to convert shapefile to SVG:__<br/>
 &emsp;&emsp;&emsp;&emsp;https://mapshaper.org/  <br/>
-
+&emsp;__Color Palette:__<br/>
+&emsp;&emsp;&emsp;&emsp;https://www.color-hex.com/color-palette/86342 <br/>
+&emsp;&emsp;&emsp;&emsp;https://www.color-hex.com/color-palette/86343 <br/>
 
 **Usage hints:**<br/>
 &emsp;&emsp;0- Unrar the JSON_Files.rar <br/>
